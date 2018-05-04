@@ -1,0 +1,10 @@
+spring:
+    datasource:
+        password: root
+        url: jdbc:mysql://localhost:3306/springbootjpa?useSSL=false
+        username: root
+    devtools:
+         restart:
+              addtional-paths: src/
+    profiles:
+         active: dev
